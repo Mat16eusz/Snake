@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['poczatkowe_5fustawianie_5fpol_14',['poczatkowe_ustawianie_pol',['../_rysowanie__planszy__i__ustawianie__wartosci_8c.html#a8c882b0b0c970431ee44e02ab10f5a0e',1,'poczatkowe_ustawianie_pol(int plansza[ROZMIAR_PLANSZY_SZEROKOSC][ROZMIAR_PLANSZY_WYSOKOSC], int *wspolrzedna_x_weza, int *wspolrzedna_y_weza, int *wspolrzedna_x_jedzenia, int *wspolrzedna_y_jedzenia):&#160;Rysowanie_planszy_i_ustawianie_wartosci.c'],['../_rysowanie__planszy__i__ustawianie__wartosci_8h.html#a8c882b0b0c970431ee44e02ab10f5a0e',1,'poczatkowe_ustawianie_pol(int plansza[ROZMIAR_PLANSZY_SZEROKOSC][ROZMIAR_PLANSZY_WYSOKOSC], int *wspolrzedna_x_weza, int *wspolrzedna_y_weza, int *wspolrzedna_x_jedzenia, int *wspolrzedna_y_jedzenia):&#160;Rysowanie_planszy_i_ustawianie_wartosci.c']]],
+  ['pod_5fmenu_15',['pod_menu',['../_menu_8c.html#ac3774fdb514345147744cd6b8f5e7680',1,'pod_menu(void):&#160;Menu.c'],['../_menu_8h.html#ac3774fdb514345147744cd6b8f5e7680',1,'pod_menu(void):&#160;Menu.c']]],
+  ['pokaz_5fkursor_5fna_5fekranie_16',['pokaz_kursor_na_ekranie',['../_ustawienia__konsoli_8c.html#adde6cf63a4294d0b57f5413dccb299f0',1,'pokaz_kursor_na_ekranie(bool jest_kursor):&#160;Ustawienia_konsoli.c'],['../_ustawienia__konsoli_8h.html#adde6cf63a4294d0b57f5413dccb299f0',1,'pokaz_kursor_na_ekranie(bool jest_kursor):&#160;Ustawienia_konsoli.c']]],
+  ['prawo_17',['PRAWO',['../_logika__gry_8c.html#a0fc15001821761d42c533a561496a0a4',1,'PRAWO():&#160;Logika_gry.c'],['../_sterowanie_8c.html#a0fc15001821761d42c533a561496a0a4',1,'PRAWO():&#160;Sterowanie.c']]]
+];

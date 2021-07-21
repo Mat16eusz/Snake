@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Snake: Dokumentacja pliku C:/Users/Mateusz/Desktop/PWSZ/Programowanie w C/I semestr_Jan Duda/Mateusz Jasiak/Snake_C/Snake_C/Sterowanie.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Snake
+   &#160;<span id="projectnumber">v1.0</span>
+   </div>
+   <div id="projectbrief">Snake wykonany na zaliczenie z programowania w C</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_47f7606057b6f436358fcd761c39f97d.html">Snake_C</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Definicje</a> &#124;
+<a href="#func-members">Funkcje</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja pliku Sterowanie.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="_sterowanie_8h_source.html">Sterowanie.h</a>&quot;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;conio.h&gt;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Definicje</h2></td></tr>
+<tr class="memitem:aaadb6bb41668f554b12ee12829110cf7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sterowanie_8c.html#aaadb6bb41668f554b12ee12829110cf7">_CRT_NONSTDC_NO_WARNINGS</a></td></tr>
+<tr class="separator:aaadb6bb41668f554b12ee12829110cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8713869a853d6bb23d8aab52e4378d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sterowanie_8c.html#ad8713869a853d6bb23d8aab52e4378d8">GORA</a>&#160;&#160;&#160;296</td></tr>
+<tr class="separator:ad8713869a853d6bb23d8aab52e4378d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ff045e68df7db82eccdbf9963266681"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sterowanie_8c.html#a2ff045e68df7db82eccdbf9963266681">DOL</a>&#160;&#160;&#160;304</td></tr>
+<tr class="separator:a2ff045e68df7db82eccdbf9963266681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4df794f17b0070a6888711ec6d82f194"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sterowanie_8c.html#a4df794f17b0070a6888711ec6d82f194">LEWO</a>&#160;&#160;&#160;299</td></tr>
+<tr class="separator:a4df794f17b0070a6888711ec6d82f194"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fc15001821761d42c533a561496a0a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sterowanie_8c.html#a0fc15001821761d42c533a561496a0a4">PRAWO</a>&#160;&#160;&#160;301</td></tr>
+<tr class="separator:a0fc15001821761d42c533a561496a0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funkcje</h2></td></tr>
+<tr class="memitem:af616fcddc1594971b2104f27d1edc57e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sterowanie_8c.html#af616fcddc1594971b2104f27d1edc57e">ustawienia_sterowania</a> (int *kierunek)</td></tr>
+<tr class="separator:af616fcddc1594971b2104f27d1edc57e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae35283ff35660b7c5a8814649eb50f36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_sterowanie_8c.html#ae35283ff35660b7c5a8814649eb50f36">sterowanie</a> (int *kierunek, int *wspolrzedna_x_weza, int *wspolrzedna_y_weza)</td></tr>
+<tr class="separator:ae35283ff35660b7c5a8814649eb50f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Dokumentacja definicji</h2>
+<a id="aaadb6bb41668f554b12ee12829110cf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaadb6bb41668f554b12ee12829110cf7">&#9670;&nbsp;</a></span>_CRT_NONSTDC_NO_WARNINGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _CRT_NONSTDC_NO_WARNINGS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section author"><dt>Autor</dt><dd>Mateusz Jasiak </dd>
+<dd>
+<a href="#" onclick="location.href='mai'+'lto:'+'mat'+'eu'+'sz.'+'ja'+'sia'+'k.'+'dev'+'@g'+'mai'+'l.'+'com'; return false;">mateu<span style="display: none;">.nosp@m.</span>sz.j<span style="display: none;">.nosp@m.</span>asiak<span style="display: none;">.nosp@m.</span>.dev<span style="display: none;">.nosp@m.</span>@gmai<span style="display: none;">.nosp@m.</span>l.co<span style="display: none;">.nosp@m.</span>m</a> </dd></dl>
+
+</div>
+</div>
+<a id="a2ff045e68df7db82eccdbf9963266681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ff045e68df7db82eccdbf9963266681">&#9670;&nbsp;</a></span>DOL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DOL&#160;&#160;&#160;304</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8713869a853d6bb23d8aab52e4378d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8713869a853d6bb23d8aab52e4378d8">&#9670;&nbsp;</a></span>GORA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GORA&#160;&#160;&#160;296</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4df794f17b0070a6888711ec6d82f194"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4df794f17b0070a6888711ec6d82f194">&#9670;&nbsp;</a></span>LEWO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LEWO&#160;&#160;&#160;299</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0fc15001821761d42c533a561496a0a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fc15001821761d42c533a561496a0a4">&#9670;&nbsp;</a></span>PRAWO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PRAWO&#160;&#160;&#160;301</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji</h2>
+<a id="ae35283ff35660b7c5a8814649eb50f36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae35283ff35660b7c5a8814649eb50f36">&#9670;&nbsp;</a></span>sterowanie()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sterowanie </td>
+          <td>(</td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>kierunek</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>wspolrzedna_x_weza</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>wspolrzedna_y_weza</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja realizująca ruch węża w poszczególnym kierunku.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">int*</td><td>kierunek: wartość, która odpowiada za kierunek poruszania się węża. </td></tr>
+    <tr><td class="paramname">int*</td><td>wspolrzedna_x_weza: wartość adresu pamięci gdzie jest przechwywana wartość koordynatu X z pozycją węża. </td></tr>
+    <tr><td class="paramname">int*</td><td>wspolrzedna_y_weza: wartość adresu pamięci gdzie jest przechwywana wartość koordynatu Y z pozycją węża. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af616fcddc1594971b2104f27d1edc57e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af616fcddc1594971b2104f27d1edc57e">&#9670;&nbsp;</a></span>ustawienia_sterowania()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ustawienia_sterowania </td>
+          <td>(</td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>kierunek</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja odpowiada za ustawienie klawiszy sterujących.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">int*</td><td>kierunek: wartość, która odpowiada za kierunek poruszania się węża. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
